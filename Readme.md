@@ -76,7 +76,7 @@ sed 's/,/\./' stress_$BOULEGUEUR_STRESS_LOG.tmp >> stress_$BOULEGUEUR_STRESS_LOG
 rm stress_$BOULEGUEUR_STRESS_LOG.tmp
 ```
 
-# launch stress script
+### launch stress script
 > sh stress_$BOULEGUEUR_STRESS_LOG.sh
 
 ## Credits

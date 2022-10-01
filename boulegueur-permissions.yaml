@@ -1,0 +1,38 @@
+--- 
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: boulegueur-forward-role
+rules:
+- apiGroups: [""]
+  resources: ["pods","services"]
+  verbs: ["get","list","create","delete"]
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    k8s-app: boulegueur
+  name: boulegueur
+  namespace: kube-system
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: boulegueur-clusterrole
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: boulegueur-forward-role
+subjects:
+- kind: ServiceAccount
+  name: boulegueur
+  namespace: kube-system
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: boulegueur-secret
+  annotations:
+    kubernetes.io/service-account.name: boulegueur
+type: kubernetes.io/service-account-token

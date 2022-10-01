@@ -31,13 +31,13 @@ At first launch you need to specify cluster connection parameters (click the gea
 
 ## Screenshots
 
-![Screenshot](img/screenshot_start.png?raw=true "Start")
+![Start Screenshot](screenshot_start.png?raw=true "Start")
 
-![Screenshot](img/screenshot_menu.png?raw=true "Menu")
+![Menu Screenshot](screenshot_menu.png?raw=true "Menu")
 
-![Screenshot](img/screenshot_playing.png?raw=true "Playing")
+![Playing Screenshot](screenshot_playing.png?raw=true "Playing")
 
-![Screenshot](img/screenshot_gameover.png?raw=true "Gameover")
+![Gameover Screenshot](screenshot_gameover.png?raw=true "Gameover")
 
 See [Known issues](https://github.com/jpca/Boulegueur/issues)
 

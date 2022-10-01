@@ -25,7 +25,7 @@ At first launch you need to specify cluster connection parameters (click the gea
   or 
   - create one with the following commands (based on https://app.cnvrg.io/docs/guides/ssh.html#create-the-permissions):
     ```bash
-    kubectl apply -f [boulegueur-permissions.yaml](https://github.com/jpca/Boulegueur/blob/main/boulegueur-permissions.yaml)
+    kubectl apply -f boulegueur-permissions.yaml
     kubectl -n kube-system describe secret $(kubectl -n kube-system  get secret | grep boulegueur- | awk '{print $1}')| grep token:
     ```
 

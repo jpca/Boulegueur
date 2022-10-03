@@ -4,6 +4,8 @@ A tool to stress Kubernetes cluster and solutions with fun
 
 ## Instructions to stress Kubernetes
 
+Download a release for your desktop here : https://github.com/jpca/Boulegueur/releases
+
 As a tank in hostile field, you have to kill opponents to delete pods in a As a tank in hostile field, you have to kill opponents to delete pods in a kubernetes cluster namespace.
 
 Use WSAD keys (or ZQSD for french keyboards) to move, and the spacebar to shoot.
@@ -78,6 +80,10 @@ rm stress_$BOULEGUEUR_STRESS_LOG.tmp
 
 ### launch stress script
 > sh stress_$BOULEGUEUR_STRESS_LOG.sh
+
+## Disclaimer
+
+DO NOT USE IN PRODUCTION
 
 ## Credits
 

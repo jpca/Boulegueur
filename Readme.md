@@ -6,7 +6,7 @@ A tool to stress Kubernetes cluster and solutions with fun
 
 Download a release for your desktop here : https://github.com/jpca/Boulegueur/releases
 
-As a tank in hostile field, you have to kill opponents to delete pods in a As a tank in hostile field, you have to kill opponents to delete pods in a kubernetes cluster namespace.
+As a tank in hostile field, you have to kill opponents to delete pods in a kubernetes cluster namespace.
 
 Use WSAD keys (or ZQSD for french keyboards) to move, and the spacebar to shoot.
 

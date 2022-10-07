@@ -89,8 +89,7 @@ DO NOT USE IN PRODUCTION
 
 Based on Kubernetes APIs
 
-Made with [Unity 2021.3](https://unity3d.com/fr/get-unity/download),
-and Unity assets :
+Made with Unity 2021.3, and Unity assets :
 - TopDownEngine
 - BestHttp
 

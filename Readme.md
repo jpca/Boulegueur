@@ -76,10 +76,10 @@ awk -F ";" '{if (NR!=1) {print "sleep " $7; if ($6!="ready") {print "kubectl " $
 echo "# Replay $BOULEGUEUR_STRESS_LOG stress test" > stress_$BOULEGUEUR_STRESS_LOG.sh
 sed 's/,/\./' stress_$BOULEGUEUR_STRESS_LOG.tmp >> stress_$BOULEGUEUR_STRESS_LOG.sh
 rm stress_$BOULEGUEUR_STRESS_LOG.tmp
-```
 
-### launch stress script
-> sh stress_$BOULEGUEUR_STRESS_LOG.sh
+# launch stress script
+sh stress_$BOULEGUEUR_STRESS_LOG.sh
+```
 
 ## Disclaimer
 
